@@ -45,7 +45,7 @@ print("按下enter以脱离控制")
 input()
 
 import subprocess
-p = subprocess.Popen('taskkill /f /im explorer.exe', shell=True)
+p = subprocess.Popen('taskkill /f /im StudentMain.exe', shell=True)
 print(p.returncode)
 p.wait()
 print(p.returncode)
